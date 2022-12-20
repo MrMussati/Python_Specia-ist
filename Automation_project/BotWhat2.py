@@ -8,5 +8,5 @@ driver = webdriver.Chrome(executable_path=r'C:\Users\bruno\.cache\selenium\chrom
 driver.get('https://https://web.whatsapp.com//')
 time.sleep(120)
 #buscar contatos/ grupos
-contatos = [Bot] 
+contatos = [] 
 #Enviar mensagens para o contato / grupo
