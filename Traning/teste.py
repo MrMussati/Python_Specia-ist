@@ -1,9 +1,11 @@
+
+
 ########## ROUND 1 ##########
 
 print('ROUND NUMBER 1:')
 
-player_1 = int(input('Player_1 - Put your Card :'))
-player_2 = int(input('Player_2 - Put your Card :'))
+player_1 = (input('Player_1 - Put your Card :'))
+player_2 = (input('Player_2 - Put your Card :'))
 
 
 round1 = [player_1,player_2]
@@ -15,8 +17,12 @@ for round in range (1):
 
 if player_1== player_2 :    
     print('______The round 1 has DRAW______')
+
+
+
 elif player_2 >= player_1:
     print('______ PLayer_2 WINS______')
+
 else:
     player_1 >= player_2
     print('______Player_1 WINS_______')
@@ -53,10 +59,27 @@ else:
 print('********************************************************')
 print('********************************************************')
 
-total = round1, round2
+if round1== round2 :    
+    print('______The round  has DRAW______')
 
+elif round2 >= round1:
+    print('______ PLayer_2 WINS______')
 
-print(total)
+else:
+    round1 >= round2    
+    print('______Player_1 WINS_______')
+    
 
+if round2 >= round1 :
+    print('______ PLayer_2 ______')
+    print('_____WINS OVERALL____')
+    
 
+else:
+    round1 >= round2  
+    print('______Player_1_______')
+    print('_____WINS OVERALL____')
 
+    print('********GAMEOVER*********')
+
+    
