@@ -1,85 +1,27 @@
+#name fo game
+
+print('*********** CARD BUSTERS **************')
 
 
-########## ROUND 1 ##########
+cards_one = [10,6,8,9,7,12,7]
 
-print('ROUND NUMBER 1:')
+cards_two = [7,6,9,5,2,8,11]
 
-player_1 = (input('Player_1 - Put your Card :'))
-player_2 = (input('Player_2 - Put your Card :'))
+#elemen   2,3,4,5,6,7,8
 
-
-round1 = [player_1,player_2]
-
-for round in range (1):
-    round +1
-    print('--------Result----------') 
-    print('Player_1 -',round1,'- Player_2')  
-
-if player_1== player_2 :    
-    print('______The round 1 has DRAW______')
-
-
-
-elif player_2 >= player_1:
-    print('______ PLayer_2 WINS______')
-
-else:
-    player_1 >= player_2
-    print('______Player_1 WINS_______')
-
-   
-
-print('********************************************************')
-print('********************************************************')
-
-
-########### ROUND 2 ##########
-
-print('ROUND NUMBER 2:')
-
-player_1 = int(input('Player_1 - Put your Card :'))
-player_2 = int(input('Player_2 - Put your Card :'))
-
-
-round2 = [player_1,player_2]
-
-for round in range (1):
-    round +1
-    print('--------Result----------') 
-    print('Player_1 -',round2,'- Player_2')  
+def rounds():
     
-if player_1== player_2 :    
-    print('______The round 2 has DRAW______')
-elif player_2 >= player_1:
-    print('______ PLayer_2 WINS______')
-else:
-    player_1 >= player_2
-    print('______Player_1 WINS_______')
-
-print('********************************************************')
-print('********************************************************')
-
-if round1== round2 :    
-    print('______The round  has DRAW______')
-
-elif round2 >= round1:
-    print('______ PLayer_2 WINS______')
-
-else:
-    round1 >= round2    
-    print('______Player_1 WINS_______')
+    if cards_one== cards_two :    
+        print('_The round has DRAW_')
+    elif cards_two >= cards_one:
+        print('_Player_2 WINS_')
+    else:
+        cards_one >= cards_two
+        print('_ Player_1 WINS__')
     
-
-if round2 >= round1 :
-    print('______ PLayer_2 ______')
-    print('_____WINS OVERALL____')
     
+for rounds in range(1):
+    print('Round:',cards_one[0],rounds,cards_two[0])
 
-else:
-    round1 >= round2  
-    print('______Player_1_______')
-    print('_____WINS OVERALL____')
-
-    print('********GAMEOVER*********')
 
     
