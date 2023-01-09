@@ -6,12 +6,22 @@ cards_two = [7,6,9,5,2,8,11]
 
 
 
-def rounds():
+def compare (c1,c2):  
+   
     
-    if cards_one== cards_two :    
-        print('_The round has DRAW_')
-    elif cards_two >= cards_one:
-        print('_Player_2 WINS_')
-    else:
-        cards_one >= cards_two
-        print('_ Player_1 WINS__')
+
+    for x in c1:
+        if(c1 >= c2):
+            print('Player 1 WINS')
+        else:
+            (c1 == c2)
+            print('The round has draw')
+
+            for y in c2:
+                if (c2 >= c1):
+                    print('Player 2 WINS')
+                else:
+                     (c1 == c2)
+                print('The round has dra')
+            
+        return 
