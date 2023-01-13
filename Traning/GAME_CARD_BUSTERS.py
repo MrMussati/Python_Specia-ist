@@ -31,5 +31,5 @@ for x in p1_wins:
                 #print('the game has ended un a draw')
 
                 (p2_wins < p1_wins)
-                print('PLayer 2 wins the game,by',p1_wins,'wins to',p2_wins)
+                print('Player 2 wins the game,by',p1_wins,'wins to',p2_wins)
 
