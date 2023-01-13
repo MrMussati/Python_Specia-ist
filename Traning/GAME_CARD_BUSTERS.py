@@ -25,10 +25,11 @@ for i in range(len(player_1)):
 
 for x in p1_wins:
         if (p1_wins > p2_wins):
-                print('wins The game,by ',p1_wins,'wins to ',p2_wins)
+                print('Player 1 wins The game,by ',p1_wins,'wins to ',p2_wins)
+        
         elif (p1_wins )== (p2_wins):
                 #print('the game has ended un a draw')
 
-                (p2_wins > p1_wins)
-                print('wins the game,by',p1_wins,'wins to',p2_wins)
+                (p2_wins < p1_wins)
+                print('PLayer 2 wins the game,by',p1_wins,'wins to',p2_wins)
 
