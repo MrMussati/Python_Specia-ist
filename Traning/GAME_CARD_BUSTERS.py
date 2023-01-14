@@ -35,7 +35,7 @@ for x in p1_wins,p2_wins:
             print('the game has ended un a draw')
 
     else:
-        p2_wins > p1_wins
+        p2_wins < p1_wins
           
 else:
     
