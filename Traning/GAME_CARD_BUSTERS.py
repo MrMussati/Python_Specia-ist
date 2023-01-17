@@ -25,15 +25,14 @@ for i in range(len(player_1)):
     
 ################## restult #####################
 
-    if p2_wins > p1_wins:
+if p2_wins > p1_wins:
          
-         print('Player 2 wins The game,by ',p2_wins ,'wins to ',p1_wins)
+         print('*Player 2 *wins The game,by ',p2_wins ,'wins to ',p1_wins)
 
-    elif p1_wins == p2_wins:
-            print('the game has ended un a draw')
+elif p1_wins == p2_wins:
+        print('*the game has ended un a draw*')
 
 else:
-        p2_wins < p1_wins
      
         print('*Player 1* wins The game,by',p1_wins ,'wins to',p2_wins)
 
