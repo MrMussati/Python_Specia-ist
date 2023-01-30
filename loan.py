@@ -18,7 +18,6 @@ for i in loan:
     
     
 
-
    
     
 
