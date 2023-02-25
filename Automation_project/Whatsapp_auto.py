@@ -32,3 +32,5 @@ for contato in contatos:
 
     #campo de pesquisa copyable-text selectable-text"
     #campo para mensagem privada copyable-text selectable-text
+
+    
